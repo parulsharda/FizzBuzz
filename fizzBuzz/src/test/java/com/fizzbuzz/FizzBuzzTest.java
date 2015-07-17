@@ -20,5 +20,7 @@ public class FizzBuzzTest {
         assertEquals("fizz", actualResult);
       }
 
-
+    
     }
+}
+}

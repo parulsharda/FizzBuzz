@@ -14,6 +14,10 @@ public class FizzBuzz {
     }
 
     public String isFizzBuzz() {
-        return "fizz";
-    }
+        if (value % 3 == 0)
+            return "fizz";
+        else
+            return "Blah";
+        }
+
 }
