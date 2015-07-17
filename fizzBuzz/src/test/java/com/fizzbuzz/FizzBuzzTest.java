@@ -20,7 +20,16 @@ public class FizzBuzzTest {
         assertEquals("fizz", actualResult);
       }
 
-    
+    @Test
+    public void shouldReturnTrueIfDivisibleByFive()  {
+        number = new FizzBuzz(17);
+
+        String actualResult = number.isFizzBuzz();
+        assertEquals("Buzz",actualResult);
+
     }
+
+
 }
-}
+
+

@@ -17,7 +17,7 @@ public class FizzBuzz {
         if (value % 3 == 0)
             return "fizz";
         else
-            return "Blah";
+            return "Buzz";
         }
 
 }
