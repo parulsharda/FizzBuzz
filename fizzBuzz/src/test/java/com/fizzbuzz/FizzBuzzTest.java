@@ -22,14 +22,31 @@ public class FizzBuzzTest {
 
     @Test
     public void shouldReturnTrueIfDivisibleByFive()  {
-        number = new FizzBuzz(17);
+        number = new FizzBuzz(20);
 
         String actualResult = number.isFizzBuzz();
         assertEquals("Buzz",actualResult);
 
     }
 
+    @Test
+    public void shouldReturnTrueIfNotDivisible() {
+       number = new FizzBuzz(17);
 
+        String actualResult = number.isFizzBuzz();
+        assertEquals("Blahh",actualResult);
+
+    }
+
+    @Test
+    public void shouldReturnTrueIfDivisibleByThreeAndFive()  {
+
+        number = new FizzBuzz(15);
+
+        String actualResult = number.isFizzBuzz();
+        assertEquals("FizzBuzz",actualResult);
+
+    }
 }
 
 
